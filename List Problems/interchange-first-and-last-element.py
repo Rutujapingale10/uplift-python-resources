@@ -1,10 +1,3 @@
-# uplift-python-resources
-Sagnik Mitra | Mentor
-
-## List Problems
-1. Python Program to Interchange First and Last element of a List
-* Solution:
-```python
 """
 [12,35,9,56,24]
 [24,35,9,56,12]
@@ -53,5 +46,3 @@ newList = [15, 15, 12, 26, 4, 8, 9, 396]
 print(f"Using the , switch method: {intFirstLastXYApproach(newList)}")
 newList = [15, 15, 12, 26, 4, 8, 9, 396]
 print(f"Using the * operand approach: {intFirstLastStarOperand(newList)}")
-
-```
