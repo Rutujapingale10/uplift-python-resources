@@ -3,7 +3,7 @@ Sagnik Mitra | Mentor
 
 ## List Problems
 1. Python Program to Interchange First and Last element of a List
-* Solution:
+Solution:
 ```python
 
 """
@@ -58,7 +58,7 @@ print(f"Using the * operand approach: {intFirstLastStarOperand(newList)}")
 ```
 
 2. Python Program to Interchange any two elements of a List
-* Solution:
+Solution:
 ```python
 
 def swapEl(myList, pos1, pos2):
