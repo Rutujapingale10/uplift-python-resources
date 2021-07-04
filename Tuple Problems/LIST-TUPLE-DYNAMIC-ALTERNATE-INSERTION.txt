@@ -1,0 +1,5 @@
+Now, in addition to the previous program
+Ask the user to input how many list and tuples he/she want to take in consideration 
+and also how many and what elements he/she wants
+
+You will push your solution in my repository
