@@ -25,4 +25,3 @@ Consider the above condition and write a Python Program to calcaulate the total 
 """
 carList = [4, 1, 2, 5]
 overtake = 0
-print("This is Sagnik Mitra's solution")
