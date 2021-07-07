@@ -1,9 +1,9 @@
 test_list = [3, 'computer', True, False, 5, 'geeks', 6, 7, 2.3, 6.5]
 print("The original list is : " + str(test_list))
-intCount = len(list(i for i in test_list if isinstance(i, int)))
-strCount = len(list(i for i in test_list if isinstance(i, str)))
-boolCount = len(list(i for i in test_list if isinstance(i, bool)))
-floatCount = len(list(i for i in test_list if isinstance(i, float)))
+intCount = len(list(i for i in test_list if type(i) == int))
+strCount = len(list(i for i in test_list if isinstance(i) == str))
+boolCount = len(list(i for i in test_list if type(i) == bool))
+floatCount = len(list(i for i in test_list if type(i) == float))
 print("The length of integers in list is : " + str(intCount))
 print("The length of floats in list is : " + str(floatCount))
 print("The length of booleans in list is : " + str(boolCount))
