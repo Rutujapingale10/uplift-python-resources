@@ -1,5 +1,4 @@
 car_list = [5,4,2,1,3]
-overtaken = 0
 def overtake():
     overtaken = 0
     for i in range(len(car_list)):
