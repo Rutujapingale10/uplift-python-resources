@@ -2,7 +2,7 @@
 Sagnik Mitra | Mentor
 
 ## List Problems
-1. Python Program to Interchange First and Last element of a List
+#### 1 Python Program to Interchange First and Last element of a List
 Solution:
 
 
@@ -59,7 +59,7 @@ print(f"Using the * operand approach: {intFirstLastStarOperand(newList)}")
 
 ```
 
-2. Python Program to Interchange any two elements of a List
+#### 2 Python Program to Interchange any two elements of a List
 Solution:
 
 
@@ -103,5 +103,19 @@ print(f"Using the , switch method: {swapElXYApproach(newList,1,5)}")
 newList = [15, 15, 12, 26, 4, 8, 9, 396]
 print(f"Using the * operand approach: {swapElStarOperand(newList,1,2)}")
 
+
+```
+
+3. Add Matrices
+Solution:
+
+
+```python
+
+# Adding two Matrices by using Comprehesnion list
+x = [[12, 7, 3], [4, 5, 6], [7, 8, 9]]
+y = [[12, 7, 3], [9, 5, 6], [7, 8, 9]]
+
+result = [[x[i][j] + y[i][j] for j in range(len(x[0]))] for i in range(len(x))]
 
 ```
