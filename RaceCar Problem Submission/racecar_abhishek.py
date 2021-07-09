@@ -23,5 +23,5 @@ So, in total there are 3+2 = 5 overtakes.append
 
 Consider the above condition and write a Python Program to calcaulate the total overtake for the below given list.
 """
-carList = [4,1,2,5]
+carList = [4, 1, 2, 5]
 overtake = 0
