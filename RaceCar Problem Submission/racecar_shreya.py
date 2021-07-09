@@ -1,3 +1,20 @@
+carList = [4,3,1,2]
+overtake = 0
+
+for i in range(len(carList)):
+    for j in range(0,len(carList)-1):
+        if carList[j]>carList[j+1]:
+            temp=carList[j]
+            carList[j]=carList[j+1]
+            carList[j+1]=temp
+            overtake+=1
+print("Number of overtakes are:"+str(overtake))
+    
+
+
+
+
+
 """
 There are n cars. And their locations are represented by their List Indexes.
 e.g. [4,1,2,3]
@@ -23,5 +40,3 @@ So, in total there are 3+2 = 5 overtakes.append
 
 Consider the above condition and write a Python Program to calcaulate the total overtake for the below given list.
 """
-carList = [4, 1, 2, 5]
-overtake = 0
