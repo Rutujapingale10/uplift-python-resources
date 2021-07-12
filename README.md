@@ -1,4 +1,5 @@
-# uplift-python-resources
+100 Days of Uplift\
+Python\
 Sagnik Mitra | Mentor
 
 ## List Problems
