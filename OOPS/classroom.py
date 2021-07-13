@@ -12,10 +12,11 @@ class myClass:
         print(self.chant)
 
 
+# if something is there, it will replace the deafult parameter, if nothing is there in the ordered parameter, then only this default thing works
 """
 There is something called Default Parameter, if there is a paramter but still someone forget to add it, then the program by default take the deafult pararmter
 """
-object1 = myClass(12, "C")
+object1 = myClass(13)
 object1.printMyDetails()
 
 object2 = myClass(11, "A")
