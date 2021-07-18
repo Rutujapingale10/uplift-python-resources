@@ -1,31 +1,24 @@
-"""
-In python, functions are first class object that means that python fucntion can be used or passed as arguments
+# 2nd Step
+def myDecorator(function):
+    # 3rd Step
+    def innerFunction1():
+        # 4th Step
+        print("Hello this is before we called the function argument")
+        # 5th Step
+        function()
+        # 7th Step
+        print("Hello this is after we called the function argument")
+    # 8th Step
+    return innerFunction1
 
-We can treat any fucntion as objects
-"""
-
-
-def changeToUpperCase(text):
-    return text.upper()
-
-
-print(changeToUpperCase("sagnik"))
-
-myVar = changeToUpperCase
-print(myVar('Hello'))
-
-
-def upperVal(text):
-    return text.upper()
+# 6th Step
 
 
-def lowerVal(text):
-    return text.lower()
+def theFunctionWeWillBePassing():
+    print("Hey, I am inside the function")
 
 
-def myFun(function):
-    greeting = function("HIIII")
-    print(greeting)
-
-
-myFun(lowerVal)
+# 1st Step
+x = myDecorator(theFunctionWeWillBePassing)
+# 9th / Final Step
+x()
